@@ -1,0 +1,58 @@
+#HeroBottom{
+    background-color: #111111c4;
+    box-shadow: 0px 0px 10px #fff;
+    padding: 50px 65px;
+    border: 1px solid #fff;
+
+}
+
+.heroBottom-content{
+    height: 100%;
+}
+
+
+.heroBottom-top-part{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.top-part-box h1{
+    font-size: 3.5rem;
+    color: crimson;
+    font-weight: 900;
+}
+.top-part-box h6{
+    font-size: 1rem;
+}
+
+.heroBottom-bottom-part{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heroBottom-bottom-part ul{
+    margin-left: 20px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+}
+.heroBottom-bottom-part h1{
+    font-size: 1.5rem;
+}
+.heroBottom-bottom-part p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.heroBottom-bottom-part a{
+    text-decoration: underline;
+}
+.heroBottom-bottom-part a:hover{
+    color: crimson;
+}

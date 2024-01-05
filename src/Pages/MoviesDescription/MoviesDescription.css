@@ -1,0 +1,15 @@
+#Movie-Description {
+  padding: 50px;
+}
+
+.movie-Description-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.movie-description-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+

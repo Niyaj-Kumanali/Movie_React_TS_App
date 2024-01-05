@@ -1,0 +1,7 @@
+body{
+  background: url('https://pickamovieforme.b-cdn.net/wp-content/uploads/2020/06/bg-tablet2.jpg');
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}

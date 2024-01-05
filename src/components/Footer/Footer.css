@@ -1,0 +1,35 @@
+#Footer {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101010;
+  height: 70px;
+  font-size: 0.7rem;
+  color: #999;
+  font-weight: 600;
+  padding: 0 65px;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px #ccc;
+}
+
+.footer-right {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-right .footer-link {
+  padding: 0 10px;
+  transition: 0.5s;
+  font-size: 0.7rem;
+  color: #999;
+  font-weight: 600;
+}
+.footer-right a:first-child {
+  border-right: 2px solid #999;
+}
+.footer-right .footer-link:hover {
+  color: crimson;
+}

@@ -1,0 +1,42 @@
+#Movies {
+  padding: 60px;
+}
+
+.movies-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.movies-container {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pageNavigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 50px;
+}
+
+.pageNavigation button {
+  min-width: 40px;
+  min-height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.pageNavigation button:hover {
+  color: crimson;
+  text-decoration: underline;
+
+  border: 2px solid crimson;
+}

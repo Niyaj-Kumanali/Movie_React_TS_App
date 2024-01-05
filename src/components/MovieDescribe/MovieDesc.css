@@ -1,0 +1,132 @@
+.movie-description {
+  min-height: 50vh;
+  border: 2px solid #fff;
+  margin: 50px 0;
+}
+
+.movie-desc-image {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #101010;
+  position: relative;
+}
+
+.movie-desc-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%); */
+  background-color: #10101081;
+  pointer-events: none;
+}
+
+.movie-desc-img-top {
+  z-index: 1;
+  color: #fff;
+}
+
+.movie-desc-img-top h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.movie-desc-img-top h4 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.movie-desc-img-bottom {
+  display: flex;
+}
+
+.movie-desc-genres,
+.movie-details {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.click-to-see,
+.movie-desc-genres,
+.movie-duration {
+  color: #999;
+}
+
+.click-to-see {
+  font-size: 1rem;
+}
+
+.movie-duration {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.movie-desc-genres {
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.details-nav button {
+  min-width: 30px;
+  min-height: 30px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.movie-desc-content {
+  min-height: 25vh;
+  background-color: #101010;
+  padding: 20px;
+}
+
+.movie-desc-content .desc {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.desc i {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.glow i {
+  text-shadow: 0px 0px 5px #fff;
+  /* color: red; */
+}
+
+.movie-info {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.movie-info p{
+  display: flex;
+  justify-content: start;
+  font-size: 1rem;
+}
+
+.movie-info span{
+  width: 30%;
+}
+
+.movie-info p span:first-child{
+  color: #999;
+}

@@ -1,0 +1,116 @@
+#MovieShare {
+  width: 95%;
+  border: 2px solid #fff;
+  padding: 30px;
+  background-color: #101010e3;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#MovieShare h1 {
+  font-size: 1rem;
+}
+.shareButtons {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+
+}
+
+.shareButtons a {
+  width: 130px;
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  border: 1px solid crimson;
+  border-radius: 13px;
+  outline: none;
+  transition: 0.5s;
+}
+
+.shareButtons a i {
+  width: 30%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.shareButtons i:hover {
+  background-color: crimson;
+}
+
+.shareButtons a i,
+.shareButtons a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.shareButtons span {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+/* Hover for share buttons */
+.shareFB-btn:hover {
+  border-color: #3b5998;
+}
+
+.shareFB-btn:hover i {
+  background-color: #3b5998;
+}
+.shareFB-btn:hover span {
+  color: #3b5998;
+}
+
+.shareX-btn:hover {
+  border-color: #00aced;
+}
+
+.shareX-btn:hover i {
+  background-color: #00aced;
+}
+
+.shareX-btn:hover span {
+  color: #00aced;
+}
+
+.shareReddit-btn:hover {
+  border-color: #ff5c1f;
+}
+
+.shareReddit-btn:hover i {
+  background-color: #ff5c1f;
+}
+
+.shareReddit-btn:hover span {
+  color: #ff5c1f;
+}
+
+.sharePinterest-btn:hover {
+  border-color: #cb2027;
+}
+
+.sharePinterest-btn:hover i {
+  background-color: #cb2027;
+}
+
+.sharePinterest-btn:hover span {
+  color: #cb2027;
+}
+
+.shareWhatsapp-btn:hover {
+  border-color: #00e676;
+}
+
+.shareWhatsapp-btn:hover i {
+  background-color: #00e676;
+}
+
+.shareWhatsapp-btn:hover span {
+  color: #00e676;
+}

@@ -1,0 +1,62 @@
+.blog-item{
+    display: flex;
+    width: 100%;
+}
+
+.blog-image, .blog-information{
+    width: 45%;
+    padding: 20px;
+}
+
+.blog-image img{
+    width: 100%;
+}
+
+.blog-information{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    line-height: 2rem;
+    
+}
+
+
+.blog-type{
+    color: crimson;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.blog-type:hover{
+    color: #fff;
+}
+
+.blog-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.blog-title:hover{
+    color: crimson;
+}
+
+.blog-description{
+    font-size: 1rem;
+}
+
+.blog-foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.blog-comment, .blog-date{
+    color: #999;
+    text-transform: uppercase;
+}
+.blog-comment:hover{
+    color: #fff;
+}

@@ -1,0 +1,13 @@
+#MovieBanner{
+    width: 45%;
+    height: 100vh;
+    margin: 50px auto 100px;
+    border: 2px solid #fff;
+}
+
+#MovieBanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

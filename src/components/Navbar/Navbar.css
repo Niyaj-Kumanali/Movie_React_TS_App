@@ -1,0 +1,170 @@
+#navbar {
+  height: 75px;
+  padding: 0 65px;
+  background-color: #00000075;
+  box-shadow: 0px 2px 10px #fff;
+  color: #fff;
+}
+
+.nav-main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  height: 100%;
+  width: 40%;
+}
+
+.nav-logo {
+  height: 100%;
+  padding: 5px;
+}
+
+.nav-logo img {
+  height: 100%;
+  transition: 0.5s;
+}
+
+.nav-logo img:hover {
+  opacity: 0.5;
+}
+
+.nav-right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.nav-items .nav-link p {
+  border-right: 2px solid #fff;
+  padding-right: 5px;
+}
+
+.nav-items .nav-link:last-child p {
+  border: none;
+}
+
+.nav-items .nav-link p span {
+  transition: 0.5s;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 12px;
+}
+.nav-items .nav-link:hover p span {
+  padding-bottom: 2px;
+
+  border-bottom: 3px solid crimson;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-icons button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.2s;
+}
+.search-btn i{
+  font-size: 1rem;
+}
+
+.yt-btn:hover {
+  color: crimson;
+}
+
+.fb-btn:hover,
+.insta-btn:hover {
+  color: blue;
+}
+
+.nav-icons a button i{
+  font-size: 1.4rem;
+}
+
+
+/* item visible when hover on navbar */
+
+.top-genres-hover,
+.top-actors-hover,
+.search-input {
+  border: none;
+  display: none;
+  position: absolute;
+  top: 75px;
+  z-index: 6;
+}
+
+.genres:hover .top-genres-hover,
+.actors:hover .top-actors-hover {
+  display: block;
+}
+
+.top-genres-hover span,
+.top-actors-hover span {
+  display: block;
+  border-top: 1px solid #ccc;
+  background-color: #000000cb;
+  padding: 16px 20px;
+  width: 200px;
+  font-size: 0.6rem;
+  transition: 0.5s;
+}
+.top-genres-hover span:hover,
+.top-actors-hover span:hover {
+  background-color: crimson;
+}
+
+.top-actors-hover:hover,
+.top-actors-hover:hover {
+  display: block;
+}
+
+.search-input {
+  display: block;
+  background-color: #111111c0;
+  padding: 16px;
+  position: absolute;
+  top: 55px;
+  right: 0px;
+}
+
+.search-input input {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+.hideSearch{
+  display:none;
+}

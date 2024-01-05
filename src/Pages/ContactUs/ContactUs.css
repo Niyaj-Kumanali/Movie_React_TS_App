@@ -1,0 +1,52 @@
+#ContactUs{
+    padding: 50px 80px 120px;
+    text-align: center;
+}
+
+.contactUs-heading{
+    margin-bottom: 70px;
+  letter-spacing: 2px;
+
+}
+
+
+#ContactUs input, textarea{
+    width: 100%;
+    padding: 16px;
+    margin: 10px 0;
+    border-radius: 30px;
+    font-size: 1.2rem ;
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+    font-weight: 100;
+}
+
+.contactUs-bottom{
+    text-align: left;
+}
+.contactUs-bottom a{
+    text-decoration: underline;
+}
+.contactUs-bottom p{
+    margin: 15px 0 30px;
+}
+.contactUs-bottom button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+
+
+.contactUs-bottom button:hover{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: #fff;
+}
